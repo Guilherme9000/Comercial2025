@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background:;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e65a50;
+}
+
+#about, #projects {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.project-grid {
+    background-color:;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Guilherme Santana Vemba</h1>
+            <nav>
+                <ul>
+                    <li><a href="about.html">Sobre Mim</a></li>
+                    <li><a href="skills.html">Habilidades</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="hero">
+        <div class="container">
+            <h2>Bem-vindo ao Meu Portfólio</h2>
+            <p>Desenvolvedor Web em Aprendizado</p>
+            <a href="projects.html" class="btn">Ver Projetos</a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Eu sou um desenvolvedor web em aprendizado, apaixonado por aprender novas tecnologias.</p>
+            <a href="about.html" class="btn">Saiba Mais</a>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projetos Destacados</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="assets/project1.jpg" alt="Projeto 1">
+                    <h3>Projeto 1</h3>
+                    <p>Criar uma página web básica que demonstra a utilização de elementos estruturais semânticos do HTML5, como `header`, `nav`, `section`, `aside`, `article` e `footer`, com estilização CSS para organização visual .</p>
+                </div>
+                <div class="project-card">
+                    <img src="" alt="Projeto 2">
+                    <h3>Projeto 2</h3>
+                    <p>Criar uma página web simples utilizando HTML e CSS para demonstrar o uso de um layout flexível (flexbox) e design responsivo..</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Guilherme Vemba. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
