@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #5D4037; 
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #hero {
+            background-color: #8D6E63;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .btn {
+            background-color: #4E342E;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #3E2723;
+        }
+
+        #about, #projects {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .project-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .project-card {
+            background-color: #D7CCC8; 
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+
+        footer {
+            background-color: #5D4037;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer .social-links a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Guilherme Santana Vemba</h1>
+            <nav>
+                <ul>
+                    <li><a href="Sobre Mim.html">Sobre Mim</a></li>
+                    <li><a href="Habilidades.html">Habilidades</a></li>
+                    <li><a href="Projetos.html">Projetos</a></li>
+                    <li><a href="Contactos.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="hero">
+        <div class="container">
+            <h2>Bem-vindo ao Meu Portfólio</h2>
+            <p>Desenvolvedor Web em Aprendizado</p>
+            <a href="Projetos.html" class="btn">Ver Projetos</a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Eu sou um desenvolvedor web em aprendizado, apaixonado por aprender novas tecnologias.</p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projetos Destacados</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Projeto 1</h3>
+                    <p>Tabela de Estudantes.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Projeto 2</h3>
+                    <p>Layolty nao responsivo.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Projeto 3</h3>
+                    <p>Loyalty responsivo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Guilherme Vemba. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/guilherme.santana09/">Instagram</a>
+                <a href="https://github.com/Guilherme9000/Comercial2025">GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
